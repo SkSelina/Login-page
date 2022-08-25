@@ -1,0 +1,83 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* element/name selector */
+body {
+    background-color: rgb(61, 152, 216)
+}
+/* id selector */
+#admin-box {
+    background-color: rgb(1, 56, 91);
+    color:black ;
+    text-align: center;
+    width: 45%;
+    margin: 2% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+/* class selector */
+.admin-image{
+    width: 150px;
+
+}
+/* decendent selector */
+#admin-box h1 {
+    font-size:35px;
+    text-transform: uppercase;
+
+}
+input,
+label {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+}
+input {
+    background-color: rgb(61, 152, 216) ;
+    color: black;
+    border: PX solid black;
+    border-radius: 10px;
+
+}
+label {
+    font-size:20px;
+    color: black;
+}
+P {
+    font-size: 20PX;
+}
+P a {
+    text-decoration: none;
+    color:  rgb(61, 152, 216) ;
+    text-transform: capitalize;
+}
+input:focus {
+    background-color: transparent;
+
+
+}
+input::placeholder {
+    color: black;
+}
+input[type="submit"] {
+
+background-color: rgb(61, 152, 216) ;
+border: 1px solid  rgb(61, 152, 216);
+margin: 20px auto;
+width: 25%;
+
+transition: ease-in-out 0.8s;
+}
+
+input[type="submit"]:hover{
+    background-color: transparent;
+    border: 1px solid  black;
+
+}
